@@ -61,6 +61,7 @@ group :development do
   gem 'letter_opener_web'
   gem 'rubocop', require: false
   gem 'rubocop-rails', require: false
+  gem 'pry-rails'
 end
 
 group :production do
