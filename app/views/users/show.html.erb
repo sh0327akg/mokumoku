@@ -12,6 +12,15 @@
           <div class="ms-3">
             <h4 class="mb-3"><%= @user.name %></h4>
           </div>
+          <div class="mb-3 ms-5">
+            <%if @user != current_user%>
+              <% if current_user.following(@user) %>
+                <%= link_to 'フォローを外す', relationship_path(user_id: @user.id), class:'btn-sm btn-danger', method: :delete %>
+              <% else %>
+                <%= link_to 'フォローする', relationships_path(user_id: @user.id), class:'btn-sm btn-success', method: :post %>
+              <% end %>
+            <% end %>
+          </div>
         </div>
       </div>
       <hr class="my-5">
