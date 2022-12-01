@@ -12,6 +12,8 @@ class User < ApplicationRecord
   has_many :notifications, foreign_key: :receiver_id, dependent: :destroy, inverse_of: :sender
   has_many :user_notification_timings, dependent: :destroy
   has_many :notification_timings, through: :user_notification_timings
+  has_many :follower, class_name: 'Relationships', foreign_key: :follower_id, dependent: :destroy
+  has_many :followed, class_name: 'Relationships', foreign_key: :followed_id, dependent: :destroy
   has_one_attached :avatar
 
   validates :password, length: { minimum: 3 }, if: -> { new_record? || changes[:crypted_password] }
