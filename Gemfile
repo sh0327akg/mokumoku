@@ -57,11 +57,10 @@ group :development do
   gem 'rack-mini-profiler', '~> 2.0'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
-
   gem 'letter_opener_web'
+  gem 'pry-rails'
   gem 'rubocop', require: false
   gem 'rubocop-rails', require: false
-  gem 'pry-rails'
 end
 
 group :production do
@@ -70,9 +69,9 @@ end
 
 group :test do
   gem 'capybara', '>=2.15'
+  gem 'simplecov', require: false
   gem 'webdrivers'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
-gem 'simplecov', require: false, group: :test

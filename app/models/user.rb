@@ -87,6 +87,7 @@ class User < ApplicationRecord
 
   def unfollow(user_id)
     return if user_id.nil?
+
     relationships.find_by(followed_id: user_id).destroy
   end
 
@@ -94,7 +95,7 @@ class User < ApplicationRecord
     followings.include?(user)
   end
 
-  def is_not_me?(object)
+  def not_me?(object)
     object.id != id
   end
 end
