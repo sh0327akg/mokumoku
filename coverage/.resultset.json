@@ -22,115 +22,6 @@
           null
         ]
       },
-      "/Users/murakamishouta/workspace/mokumoku/app/models/relationship.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/murakamishouta/workspace/mokumoku/app/models/application_record.rb": {
-        "lines": [
-          null,
-          null,
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/murakamishouta/workspace/mokumoku/spec/models/user_spec.rb": {
-        "lines": [
-          null,
-          null,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          2,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          2,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          2,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          2,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          1,
-          1,
-          2,
-          2,
-          1,
-          1,
-          1,
-          2,
-          null,
-          null,
-          null,
-          1,
-          2,
-          2,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          2,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
       "/Users/murakamishouta/workspace/mokumoku/app/models/user.rb": {
         "lines": [
           null,
@@ -142,19 +33,15 @@
           1,
           1,
           1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          null,
           1,
           1,
           1,
           1,
-          null,
+          1,
+          1,
+          1,
+          1,
+          1,
           1,
           null,
           52,
@@ -231,6 +118,15 @@
           1,
           12,
           null,
+          null
+        ]
+      },
+      "/Users/murakamishouta/workspace/mokumoku/app/models/application_record.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
           null
         ]
       },
@@ -1206,6 +1102,14 @@
           null
         ]
       },
+      "/Users/murakamishouta/workspace/mokumoku/app/models/relationship.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
       "/Users/murakamishouta/workspace/mokumoku/app/controllers/relationships_controller.rb": {
         "lines": [
           1,
@@ -1258,6 +1162,6 @@
         ]
       }
     },
-    "timestamp": 1669883478
+    "timestamp": 1669887908
   }
 }
